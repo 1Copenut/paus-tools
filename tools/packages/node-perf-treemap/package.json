@@ -1,0 +1,30 @@
+{
+  "name": "@continuumdesign/node-perf-treemap",
+  "version": "0.1.0",
+  "description": "Create a valid URL to visualize your app performance treemap on Google Lighthouse.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1Copenut/paus-tools.git"
+  },
+  "keywords": [
+    "performance",
+    "Lighthouse",
+    "nodejs"
+  ],
+  "author": "Trevor Pierce",
+  "license": "MIT",
+  "devDependencies": {
+    "open": "^8.4.0",
+    "pako": "^2.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/1Copenut/paus-tools/issues"
+  },
+  "homepage": "https://github.com/1Copenut/paus-tools#readme"
+}
+

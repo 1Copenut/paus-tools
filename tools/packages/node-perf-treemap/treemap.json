@@ -1,0 +1,25 @@
+{
+  "lhr": {
+    "requestedUrl": "https://www.example.org",
+    "audits": {
+      "script-treemap-data": {
+        "details": {
+          "type": "treemap-data",
+          "nodes": [
+            {
+              "name": "https://www.example.org/",
+              "resourceBytes": 100000
+            },
+            {
+              "name": "https://www.example.org/one.css",
+              "resourceBytes": 200000
+            }
+          ]
+        }
+      }
+    },
+    "configSettings": {
+      "locale": "en-US"
+    }
+  }
+}
