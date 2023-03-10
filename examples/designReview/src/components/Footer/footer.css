@@ -1,3 +1,13 @@
 .continuum-global-footer {
-  border-top: 1px solid lightblue;
+  background-color: #030038;
+  color: #fafafa;
+}
+
+.continuum-global-footer li {
+  list-style-type: none;
+}
+
+.continuum-global-footer a {
+  color: #246DFF;
+  text-decoration: none;
 }

@@ -33,12 +33,19 @@ code {
   min-height: 100%;
 }
 
+.continuum-grid--two-column {
+  display: grid;
+  grid-template-columns: 70% 1fr;
+  grid-template-rows: auto;
+  margin-inline: auto;
+  max-width: 100ch;
+  min-height: 100%;
+}
+
 /* ==================================================
  * Global main
  * ================================================== */
 .continuum-global-main {
-  margin-inline: auto;
-  max-width: 70ch;
   padding: 1rem;
 }
 
@@ -46,11 +53,31 @@ code {
   outline: none;
 }
 
+.continuum-main--one-column {
+  max-width: 80ch;
+  margin-inline: auto;
+}
+
+/* ==================================================
+ * Global aside
+ * ================================================== */
+.continuum-global-aside {
+  padding: 1rem;
+}
+
 /* ==================================================
  * Tables
  * ================================================== */
 .continuum-table {
   border-collapse: collapse;
+}
+
+.continuum-table th,
+.continuum-table td {
+  border: none;
+  border-bottom: 1px solid #333;
+  padding: 0.75rem 0.5rem;
+  text-align: left;
 }
 
 /* ==================================================
@@ -72,14 +99,6 @@ code {
 
 .continuum-list--definition dd:last-of-type {
   margin-bottom: 0;
-}
-
-.continuum-table th,
-.continuum-table td {
-  border: none;
-  border-bottom: 1px solid #333;
-  padding: 0.5rem;
-  text-align: left;
 }
 
 /* ==================================================

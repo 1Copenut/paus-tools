@@ -15,9 +15,9 @@ const Expenses = props => {
 
   return (
     <div className="continuum-global-wrapper--grid">
-      <Header />
+      <Header currentPage="expenses" />
 
-      <main className="continuum-global-main" id={MAIN_ID}>
+      <main className="continuum-global-main continuum-main--one-column" id={MAIN_ID}>
         <h1>Expenses</h1>
         <a href="https://github.com/1Copenut/SPA-routing-experience">GitHub link to verify focus</a>
         <p>Expense listings and definitions for our products</p>

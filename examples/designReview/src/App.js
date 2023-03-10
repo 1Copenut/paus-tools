@@ -3,6 +3,7 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./routes/Home";
 import Expenses from "./routes/Expenses";
 import Invoices from "./routes/Invoices";
+import Hints from "./routes/Hints";
 import Template from "./routes/Template";
 
 const App = () => {
@@ -39,6 +40,15 @@ const App = () => {
             element={
               <Invoices
                 pageTitle="We Say So Invoices"
+                handlePageTitle={handlePageTitle}
+              />
+            }
+          />
+          <Route
+            path="hints"
+            element={
+              <Hints
+                pageTitle="We Say So Accessibility Hints"
                 handlePageTitle={handlePageTitle}
               />
             }

@@ -15,9 +15,9 @@ const Invoices = props => {
 
   return (
     <div className="continuum-global-wrapper--grid">
-      <Header />
+      <Header currentPage="invoices" />
 
-      <main className="continuum-global-main" id={MAIN_ID}>
+      <main className="continuum-global-main continuum-main--one-column" id={MAIN_ID}>
         <h1>Invoices</h1>
         <a href="https://github.com/1Copenut/SPA-routing-experience">GitHub link to verify focus</a>
         <p>We are invoicing for Q3 FY2022 this month. Outstanding invoices and details are below.</p>
