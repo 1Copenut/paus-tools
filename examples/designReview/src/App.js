@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./routes/Home";
-import Expenses from "./routes/Expenses";
-import Invoices from "./routes/Invoices";
+import Services from "./routes/Services";
+import Pricing from "./routes/Pricing";
 import Hints from "./routes/Hints";
 import Template from "./routes/Template";
 
@@ -27,19 +27,19 @@ const App = () => {
             }
           />
           <Route
-            path="expenses"
+            path="services"
             element={
-              <Expenses
-                pageTitle="We Say So Expenses"
+              <Services
+                pageTitle="We Say So Services"
                 handlePageTitle={handlePageTitle}
               />
             }
           />
           <Route
-            path="invoices"
+            path="pricing"
             element={
-              <Invoices
-                pageTitle="We Say So Invoices"
+              <Pricing
+                pageTitle="We Say So Pricing"
                 handlePageTitle={handlePageTitle}
               />
             }

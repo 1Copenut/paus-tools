@@ -3,7 +3,7 @@ import Header from "../components/Header/Header";
 import { MAIN_ID } from "../constants";
 import { useEffect } from "react";
 
-const Expenses = props => {
+const Services = props => {
   const {
     handlePageTitle,
     pageTitle,
@@ -15,13 +15,12 @@ const Expenses = props => {
 
   return (
     <div className="continuum-global-wrapper--grid">
-      <Header currentPage="expenses" />
+      <Header currentPage="services" />
 
       <main className="continuum-global-main continuum-main--one-column" id={MAIN_ID}>
-        <h1>Expenses</h1>
-        <a href="https://github.com/1Copenut/SPA-routing-experience">GitHub link to verify focus</a>
-        <p>Expense listings and definitions for our products</p>
-        <h2>Expense definitions</h2>
+        <h1>Services</h1>
+        <p>Services listings and definitions for our products</p>
+        <h2>Services definitions</h2>
         <div>
           <h3 id="definition-list-1">Security</h3>
           <dl aria-labelledby="definition-list-1" className="continuum-list--definition">
@@ -50,4 +49,4 @@ const Expenses = props => {
   );
 }
 
-export default Expenses;
+export default Services;

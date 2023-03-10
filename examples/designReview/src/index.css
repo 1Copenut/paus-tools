@@ -19,6 +19,10 @@ code {
     monospace;
 }
 
+a {
+  color: #000ECC;
+}
+
 /* ==================================================
  * Global grid
  * ================================================== */
@@ -35,7 +39,7 @@ code {
 
 .continuum-grid--two-column {
   display: grid;
-  grid-template-columns: 70% 1fr;
+  grid-template-columns: 1fr 22.5rem;
   grid-template-rows: auto;
   margin-inline: auto;
   max-width: 100ch;
@@ -76,8 +80,12 @@ code {
 .continuum-table td {
   border: none;
   border-bottom: 1px solid #333;
-  padding: 0.75rem 0.5rem;
+  padding: 0.75rem 0.75rem;
   text-align: left;
+}
+
+.continuum-table td:last-of-type {
+  text-align: right;
 }
 
 /* ==================================================
@@ -100,6 +108,13 @@ code {
 .continuum-list--definition dd:last-of-type {
   margin-bottom: 0;
 }
+
+/* ==================================================
+ * Images
+ * ================================================== */
+ .continuum-image {
+  object-fit: cover;
+ }
 
 /* ==================================================
  * Class-based utilities

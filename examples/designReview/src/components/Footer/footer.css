@@ -1,6 +1,8 @@
 .continuum-global-footer {
   background-color: #030038;
   color: #fafafa;
+  display: flex;
+  justify-content: space-between;
 }
 
 .continuum-global-footer li {
@@ -10,4 +12,20 @@
 .continuum-global-footer a {
   color: #246DFF;
   text-decoration: none;
+}
+
+.continuum-link--hints {
+  color: #fff;
+  display: flex;
+  width: 6rem;
+}
+
+.continuum-link--hints a {
+  align-self: center;
+  width: 100%;
+}
+
+.continuum-link--hints svg {
+  align-self: center;
+  fill: currentColor;
 }

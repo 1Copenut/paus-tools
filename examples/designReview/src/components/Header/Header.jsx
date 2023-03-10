@@ -6,10 +6,14 @@ const Header = props => {
 
   return (
     <header className="continuum-global-header">
+      <div className="continuum-global-header-logo">
+        <Link to="/">A</Link>
+      </div>
+
       <nav className="continuum-global-nav">
         <Link to="/" className={currentPage === 'home' ? 'continuum-global-link--current' : null}>Home</Link>
-        <Link to="/invoices" className={currentPage === 'invoices' ? 'continuum-global-link--current' : null}>Invoices</Link>
-        <Link to="/expenses"className={currentPage === 'expenses' ? 'continuum-global-link--current' : null} >Expenses</Link>
+        <Link to="/pricing" className={currentPage === 'pricing' ? 'continuum-global-link--current' : null}>Pricing</Link>
+        <Link to="/services"className={currentPage === 'services' ? 'continuum-global-link--current' : null} >Services</Link>
       </nav>
     </header>
   );
