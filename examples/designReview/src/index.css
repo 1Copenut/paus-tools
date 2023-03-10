@@ -11,7 +11,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  line-height: 1.5;
+  line-height: 1.625;
 }
 
 code {
@@ -50,7 +50,7 @@ a {
  * Global main
  * ================================================== */
 .continuum-global-main {
-  padding: 1rem;
+  padding: 1rem 2rem 1rem 1rem;
 }
 
 .continuum-global-main:focus-visible {
@@ -60,6 +60,7 @@ a {
 .continuum-main--one-column {
   max-width: 80ch;
   margin-inline: auto;
+  padding: 1rem;
 }
 
 /* ==================================================
