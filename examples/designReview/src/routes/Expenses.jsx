@@ -1,3 +1,4 @@
+import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import { MAIN_ID } from "../constants";
 import { useEffect } from "react";
@@ -13,7 +14,7 @@ const Expenses = props => {
   }, [handlePageTitle, pageTitle]);
 
   return (
-    <>
+    <div className="continuum-global-wrapper--grid">
       <Header />
 
       <main className="continuum-global-main" id={MAIN_ID}>
@@ -44,7 +45,8 @@ const Expenses = props => {
           </dl>
         </div>
       </main>
-    </>
+      <Footer />
+    </div>
   );
 }
 
