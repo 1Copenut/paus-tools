@@ -1,0 +1,35 @@
+.continuum-global-header {
+  align-items: center;
+  background: lightskyblue;
+  border-bottom: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 1.5rem 1.5rem 3rem;
+  text-align: right;
+}
+
+.continuum-global-nav a {
+  color: #121212;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.continuum-global-nav a:last-of-type {
+  margin-right: 0;
+}
+
+.continuum-global-header-logo {
+  border: 4px solid #fff;
+  border-radius: 50% 50%;
+  height: 9.375rem;
+  text-align: center;
+  width: 9.375rem;
+}
+
+.continuum-global-header-logo a {
+  color: #000;
+  font-size: 6rem;
+  font-weight: bold;
+  text-decoration: none;
+}

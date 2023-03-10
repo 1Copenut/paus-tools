@@ -1,0 +1,137 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.625;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  color: #000ECC;
+}
+
+/* ==================================================
+ * Global grid
+ * ================================================== */
+ #root {
+  height: 100%;
+ }
+
+.continuum-global-wrapper--grid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100%;
+}
+
+.continuum-grid--two-column {
+  display: grid;
+  grid-template-columns: 1fr 22.5rem;
+  grid-template-rows: auto;
+  margin-inline: auto;
+  max-width: 100ch;
+  min-height: 100%;
+}
+
+/* ==================================================
+ * Global main
+ * ================================================== */
+.continuum-global-main {
+  padding: 1rem 2rem 1rem 1rem;
+}
+
+.continuum-global-main:focus-visible {
+  outline: none;
+}
+
+.continuum-main--one-column {
+  max-width: 80ch;
+  margin-inline: auto;
+  padding: 1rem;
+}
+
+/* ==================================================
+ * Global aside
+ * ================================================== */
+.continuum-global-aside {
+  padding: 1rem;
+}
+
+/* ==================================================
+ * Tables
+ * ================================================== */
+.continuum-table {
+  border-collapse: collapse;
+}
+
+.continuum-table th,
+.continuum-table td {
+  border: none;
+  border-bottom: 1px solid #333;
+  padding: 0.75rem 0.75rem;
+  text-align: left;
+}
+
+.continuum-table td:last-of-type {
+  text-align: right;
+}
+
+/* ==================================================
+ * Lists
+ * ================================================== */
+ .continuum-list--definition {
+  border-left: 6px solid lightskyblue;
+  margin-left: 0.5rem;
+  padding: 0.5rem 0 0.5rem 1.5rem;
+ }
+
+.continuum-list--definition dt {
+  font-weight: bold;
+}
+
+.continuum-list--definition dd {
+  margin: 0 0 1rem 0;
+}
+
+.continuum-list--definition dd:last-of-type {
+  margin-bottom: 0;
+}
+
+/* ==================================================
+ * Images
+ * ================================================== */
+ .continuum-image {
+  object-fit: cover;
+ }
+
+/* ==================================================
+ * Class-based utilities
+ * ================================================== */
+.continuum-outline--none {
+  outline: none !important;
+}
+
+.continuum-sr-only { 
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
