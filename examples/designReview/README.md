@@ -11,7 +11,7 @@ This repo requires you to type a few commands into a terminal window. Commands a
 1. `$ cd /paus-tools/` to change directories
 1. `$ cd /examples/designReview` to switch to the design review directory
 1. `$ npm install` to install dependencies
-4. `$npm run start` to compile and start the application
+4. `$ npm run start` to compile and start the application
 5. The app will be available on `localhost:3000` and should open your default browser automatically
 
 ## Stuck?
