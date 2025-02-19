@@ -22,3 +22,6 @@ This repo requires you to type a few commands into a terminal window. Commands a
 1. `$ npm install` to install dependencies
 4. View the `package.json` in the desired directory for local instructions. Often this will be `$ npm run start` to start a development server.
 5. The application will compile and your terminal should provide a local URL like `localhost:3000` or `localhost:8080` to view the application.
+
+## Guides and performance knowledge
+* [Load test types](https://grafana.com/docs/k6/latest/testing-guides/test-types/)
