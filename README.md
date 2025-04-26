@@ -25,4 +25,10 @@ This repo requires you to type a few commands into a terminal window. Commands a
 
 ## Guides and performance knowledge
 * [Load test types](https://grafana.com/docs/k6/latest/testing-guides/test-types/)
-* [Understanding the main thread in the browser](https://calendar.perfplanet.com/2024/understanding-the-main-thread-in-the-browser/
+* [Understanding the main thread in the browser](https://calendar.perfplanet.com/2024/understanding-the-main-thread-in-the-browser/)
+* Developer Way series on fronend performance:
+  * [Initial load performance for React developers: investigative deep dive](https://www.developerway.com/posts/initial-load-performance)
+  * [Client-Side Rendering in Flame Graphs](https://www.developerway.com/posts/client-side-rendering-flame-graph)
+  * [SSR Deep Dive for React Developers](https://www.developerway.com/posts/ssr-deep-dive-for-react-developers)
+  * [Tailwind vs Linaria: Performance Investigation](https://www.developerway.com/posts/tailwind-vs-linaria-performance)
+* [Flame Graphs in Chrome DevTools: A Guide for Front-End Developers](https://medium.com/slalom-blog/flame-graphs-in-chrome-devtools-a-guide-for-front-end-developers-b9503ff4a4d)
