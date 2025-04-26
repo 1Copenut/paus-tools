@@ -25,4 +25,6 @@ This repo requires you to type a few commands into a terminal window. Commands a
 
 ## Guides and performance knowledge
 * [Load test types](https://grafana.com/docs/k6/latest/testing-guides/test-types/)
-* [Understanding the main thread in the browser](https://calendar.perfplanet.com/2024/understanding-the-main-thread-in-the-browser/
+* [Understanding the main thread in the browser](https://calendar.perfplanet.com/2024/understanding-the-main-thread-in-the-browser/)
+* [Tailwind vs Linaria: Performance Investigation](https://www.developerway.com/posts/tailwind-vs-linaria-performance)
+* [Flame Graphs in Chrome DevTools: A Guide for Front-End Developers](https://medium.com/slalom-blog/flame-graphs-in-chrome-devtools-a-guide-for-front-end-developers-b9503ff4a4d)
