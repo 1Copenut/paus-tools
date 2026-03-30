@@ -6,7 +6,7 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {
-    "nx": "15.3.3",
+    "nx": "22.6.3",
     "prettier": "^2.6.2"
   },
   "workspaces": [
